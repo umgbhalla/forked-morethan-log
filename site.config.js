@@ -12,15 +12,19 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `umgbhalla's blog`,
+      name: `shit portfolio`,
       href: 'https://umgbhalla.xyz'
+    },
+      {
+      name: `shit blog`,
+      href: 'https://blog.umgbhalla.xyz'
     }
   ],
   // blog setting (required)
   blog: {
     title: 'shitty blog',
     description: 'welcome to shitty-log!',
-    theme: 'dark' // ['light', 'dark', 'auto']
+    theme: 'auto' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
