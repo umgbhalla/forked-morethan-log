@@ -1,35 +1,35 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'morethanmin',
+    name: 'umgbhalla',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'frontend developer',
-    bio: 'I develop everything using node.',
-    email: 'morethanmin.dev@gmail.com',
-    linkedin: 'morethanmin',
-    github: 'morethanmin',
-    instagram: '',
+    role: 'devops engineer',
+    bio: 'I like rust and write shit ton of yaml.',
+    email: 'umg.bhalla18@gmail.com',
+    linkedin: 'umgbhalla',
+    github: 'umgbhalla',
+    instagram: 'umgbhalla',
   },
   projects: [
     {
-      name: `morethanmin's blog`,
-      href: 'https://morethanmin.com'
+      name: `umgbhalla's blog`,
+      href: 'https://umgbhalla.xyz'
     }
   ],
   // blog setting (required)
   blog: {
-    title: 'morethan-log',
-    description: 'welcome to morethan-log!',
-    theme: 'light' // ['light', 'dark', 'auto']
+    title: 'shitty blog',
+    description: 'welcome to shitty-log!',
+    theme: 'dark' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: 'https://morethan-log.vercel.app',
+  link: 'https://blog.umgbhalla.xyz',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://og-image.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion','umang bhalla','umgbhalla','Umang','Bhalla'],
   },
 
   // notion configuration (required)
@@ -53,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'morethanmin/morethan-log',
+      repo: 'umgbhalla/forked-morethan-log',
       'issue-term': 'og:title',
       label: '💬 Utterances',
     }
