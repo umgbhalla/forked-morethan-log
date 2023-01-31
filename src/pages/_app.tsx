@@ -9,6 +9,7 @@ import Scripts from '@components/Scripts'
 import { NextPage } from 'next'
 import { ReactElement, ReactNode } from 'react'
 import { AppProps } from 'next/app'
+import Script from 'next/script';
 
 export type NextPageWithLayout<PageProps = {}> = NextPage<PageProps> & {
   getLayout?: (page: ReactElement) => ReactNode
@@ -25,6 +26,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return (
     <>
+      <Scripts />
       <Script
         id="clar"
         strategy="afterInteractive"
